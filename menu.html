@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Utama - SIMPEGDIK NGADA</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <style>
+
+        body{
+            margin:0;
+            font-family:Segoe UI, sans-serif;
+            background:#f4f6f9;
+        }
+
+        .sidebar{
+            width:270px;
+            height:100vh;
+            background:#1565C0;
+            position:fixed;
+            left:0;
+            top:0;
+            overflow-y:auto;
+            color:white;
+        }
+
+        .sidebar-header{
+            text-align:center;
+            padding:20px;
+            border-bottom:1px solid rgba(255,255,255,.2);
+        }
+
+        .sidebar-header img{
+            width:80px;
+            margin-bottom:10px;
+        }
+
+        .sidebar-header h4{
+            margin:0;
+        }
+
+        .sidebar-header small{
+            color:#ddd;
+        }
+
+        .menu-title{
+            padding:12px 20px;
+            font-size:13px;
+            color:#BBDEFB;
+            font-weight:bold;
+            text-transform:uppercase;
+        }
+
+        .sidebar ul{
+            list-style:none;
+            margin:0;
+            padding:0;
+        }
+
+        .sidebar ul li a{
+
+            display:block;
+
+            color:white;
+
+            text-decoration:none;
+
+            padding:12px 20px;
+
+            transition:.3s;
+
+        }
+
+        .sidebar ul li a:hover{
+
+            background:#0D47A1;
+
+            padding-left:28px;
+
+        }
+
+        .sidebar ul li a i{
+
+            margin-right:10px;
+
+            width:22px;
+
+        }
+
+        .submenu{
+
+            padding-left:25px;
+
+            background:#1976D2;
+
+        }
+
+        .submenu a{
+
+            font-size:14px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<div class="sidebar-header">
+
+<img src="assets/logo-ngada.png">
+
+<h4>SIMPEGDIK</h4>
+
+<small>Kabupaten Ngada</small>
+
+</div>
+
+<div class="menu-title">
+MENU UTAMA
+</div>
+
+<ul>
+
+<li>
+<a href="#">
+<i class="bi bi-speedometer2"></i>
+Dashboard
+</a>
+</li>
+
+<li>
+<a href="#">
+<i class="bi bi-building"></i>
+Master Data
+</a>
+
+<div class="submenu">
+
+<a href="#">
+<i class="bi bi-house"></i>
+Data Sekolah
+</a>
+
+<a href="#">
+<i class="bi bi-person-video3"></i>
+Data Guru
+</a>
+
+<a href="#">
+<i class="bi bi-person-badge"></i>
+Data Pegawai
+</a>
+
+</div>
+
+</li>
+
+<li>
+
+<a href="#">
+
+<i class="bi bi-folder2-open"></i>
+
+Usulan
+
+</a>
+
+<div class="submenu">
+
+<a href="#">
+<i class="bi bi-award"></i>
+Kenaikan Pangkat
+</a>
+
+<a href="#">
+<i class="bi bi-cash-stack"></i>
+Kenaikan Gaji Berkala
+</a>
+
+<a href="#">
+<i class="bi bi-calendar-check"></i>
+Cuti
+</a>
+
+</div>
+
+</li>
+
+<li>
+
+<a href="#">
+
+<i class="bi bi-clipboard-data"></i>
+
+Monitoring
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#">
+
+<i class="bi bi-check2-square"></i>
+
+Verifikasi
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#">
+
+<i class="bi bi-file-earmark-bar-graph"></i>
+
+Laporan
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#">
+
+<i class="bi bi-bell"></i>
+
+Notifikasi
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#">
+
+<i class="bi bi-people-fill"></i>
+
+Pengguna
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#">
+
+<i class="bi bi-gear-fill"></i>
+
+Pengaturan
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#">
+
+<i class="bi bi-box-arrow-right"></i>
+
+Logout
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</body>
+
+</html>
